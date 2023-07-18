@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SWIFTY</title>
+    <link rel="stylesheet" href="inner.css" />
+</head>
+<style>
+    form {
+        font-size: 32px;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 30px;
+        color: #17a589;
+    }
+
+    .check {
+        display: flex;
+        justify-content: center;
+    }
+
+    .butn {
+        display: flex;
+        justify-content: center;
+    }
+</style>
+
+<body>
+    <nav>
+        <div class="logo">SWIFTY</div>
+        <div class="nav-items">
+            <a href="first.html">Home</a> <a href="/">Contact</a> <a href="login.html">Logout</a>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <form action="">
+
+        <div class="check">
+            <ol>
+                <li>Select the pocessions to be transported
+                    <ul>
+                        <li><input type="checkbox" id="c1" name="Furniture" value="Furniture">
+                            <label for="vehicle1"> Furniture</label><br>
+                        </li>
+                        <li><input type="checkbox" id="c2" name="Electronics" value="Electronics">
+                            <label for="vehicle2"> Electronics</label><br>
+                        </li>
+                        <li><input type="checkbox" id="c3" name="FragileGoods" value="FragileGoods">
+                            <label for="vehicle3"> Fragile Goods</label><br>
+                        </li>
+                        <li><input type="checkbox" id="c4" name="ExtraPacking" value="ExtraPacking">
+                            <label for="vehicle3"> Extra Packing</label>
+                        </li>
+                    </ul>
+                </li>
+                    <br>
+                <hr>
+                <li>
+
+                    
+                    <ul>
+                        Please select your Insurance: 
+                        <li><input type="radio" id="html" name="fav_language" value="HTML">
+                            <label for="html">Normal Insurance</label><br>
+                        </li>
+                         <li><input type="radio" id="css" name="fav_language" value="CSS">
+                            <label for="css">Premium Insurance</label>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+
+        </div>
+        <br>
+        <div class="box">
+            <button type="button" onclick="window.location.href='thank.html'">
+                Submit
+              </button>
+            <!--<a href=""><button>Submit</button></a> -->
+        </div>
+        <br>
+        <hr>
+    </form>
+</body>
+
+</html>
